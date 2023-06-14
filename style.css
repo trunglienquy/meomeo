@@ -1,0 +1,43 @@
+.container{
+    background-color: #D0F2F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #D0F2F6;
+}
+.banner{
+    display: block;
+    left: 50%;
+    right: 50%;
+    transform: translateX(50%);
+    transform: translateY(25%);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+button{
+    border: none;
+    padding: 10px 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 900px) {
+    .banner{
+        display: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translateX(0%);
+        transform: translateY(25%); 
+    }
+    .banner img{
+        max-width: 400px;
+    }
+  }
